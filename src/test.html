@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WOFF Test</title>
+    <style>
+      @font-face {
+        font-family: "Atlassian Icons";
+        src: url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/2e7ea99f165150d9d77a2ae38cbdc7e3913586c9/_/download/resources/com.atlassian.auiplugin:aui-experimental-iconfont/fonts/atlassian-icons.eot);
+        src: url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/2e7ea99f165150d9d77a2ae38cbdc7e3913586c9/_/download/resources/com.atlassian.auiplugin:aui-experimental-iconfont/fonts/atlassian-icons.eot?#iefix)
+            format("embedded-opentype"),
+          url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/2e7ea99f165150d9d77a2ae38cbdc7e3913586c9/_/download/resources/com.atlassian.auiplugin:aui-experimental-iconfont/fonts/atlassian-icons.woff)
+            format("woff"),
+          url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/2e7ea99f165150d9d77a2ae38cbdc7e3913586c9/_/download/resources/com.atlassian.auiplugin:aui-experimental-iconfont/fonts/atlassian-icons.ttf)
+            format("truetype"),
+          url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/2e7ea99f165150d9d77a2ae38cbdc7e3913586c9/_/download/resources/com.atlassian.auiplugin:aui-experimental-iconfont/fonts/atlassian-icons.svg#atlassian-icons)
+            format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+      .aui-iconfont-help:before {
+        content: "\f169";
+      }
+      .ghx-iconfont.aui-icon-small::before {
+        font-size: 32px;
+        margin-top: -8px;
+      }
+      .ghx-iconfont.aui-icon-small::before,
+      .ghx-iconfont.aui-icon-large::before {
+        color: inherit;
+        font-family: "GH Atlassian Icons", monospace;
+        font-weight: normal;
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        left: 0;
+        line-height: 1;
+        position: absolute;
+        text-indent: 0;
+        speak: none;
+        top: 50%;
+      }
+
+      @font-face {
+        font-family: "GH Atlassian Icons";
+        src: url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/1e3636598d41b327454869a1a3af9c096ecb83cf/_/download/resources/com.pyxis.greenhopper.jira:gh-icon-font/gh-atlassian-icons.eot);
+        src: url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/1e3636598d41b327454869a1a3af9c096ecb83cf/_/download/resources/com.pyxis.greenhopper.jira:gh-icon-font/gh-atlassian-icons.eot?#iefix)
+            format("embedded-opentype"),
+          url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/1e3636598d41b327454869a1a3af9c096ecb83cf/_/download/resources/com.pyxis.greenhopper.jira:gh-icon-font/gh-atlassian-icons.woff)
+            format("woff"),
+          url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/1e3636598d41b327454869a1a3af9c096ecb83cf/_/download/resources/com.pyxis.greenhopper.jira:gh-icon-font/gh-atlassian-icons.ttf)
+            format("truetype"),
+          url(https://d3gnxw556bn5wy.cloudfront.net/atl-vertigo--shard-jira-prod-us-9--2--jres.atlassian.net/s/azc3hx/b/8/1e3636598d41b327454869a1a3af9c096ecb83cf/_/download/resources/com.pyxis.greenhopper.jira:gh-icon-font/gh-atlassian-icons.svg#gh-atlassian-icons)
+            format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+      .ghx-iconfont.aui-icon-small,
+      .ghx-iconfont.aui-icon-large {
+        line-height: 0;
+        position: relative;
+        vertical-align: text-top;
+      }
+      .ghx-iconfont.aui-icon-small {
+        height: 16px;
+        width: 16px;
+      }
+      .ghx-iconfont.aui-icon-large {
+        height: 32px;
+        width: 32px;
+      }
+      .ghx-iconfont.aui-icon-large::before {
+        color: inherit;
+        font-family: "GH Atlassian Icons", monospace;
+        font-weight: normal;
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        left: 0;
+        line-height: 1;
+        position: absolute;
+        text-indent: 0;
+        speak: none;
+        top: 50%;
+      }
+      .ghx-iconfont.aui-icon-large::before {
+        font-size: 200px;
+        margin-top: 16px;
+      }
+      .ghx-iconfont.aui-iconfont-help::before {
+        content: "\e003";
+      }
+    </style>
+  </head>
+  <body>
+    <span
+      class="ghx-iconfont ghx-iconfont-inactive aui-icon aui-icon-large aui-iconfont-help"
+    ></span>
+  </body>
+</html>
